@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "BH314 Build",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/build.sh",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "BH314 Flash",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/flash.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "BH314 Clean",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/clean.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "APM32 OpenOCD Server",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/debug-openocd.sh",
+      "problemMatcher": []
+    }
+  ]
+}
