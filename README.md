@@ -139,3 +139,7 @@ Arduino API เดิมถูกแทนด้วย BSP:
 - Clock ใช้ HSE 8MHz + PLL x9 เป็น SYSCLK 72MHz
 - ถ้า HSE/PLL ไม่พร้อมตอน boot firmware จะ fallback เป็น HSI 8MHz และ BSP จะคำนวณ SysTick/UART จาก clock จริงนั้น ควรถือว่าเป็น hardware/clock fault ที่ต้องตรวจ crystal/load capacitor
 - ค่า default ใช้ PA13/PA14 เป็น GPIO เพื่อให้ behavior ตรงกับ hardware เดิม จึงกระทบ SWD debug
+
+## สารบัญโปรเจคย่อย
+
+ดู [รายการโปรเจคย่อยและ README](README_SUBPROJECTS.md) สำหรับไฟล์โครงการที่ตรวจพบในกลุ่มนี้ พร้อม [ผลสำรวจและข้อจำกัดของข้อมูล](../README_COVERAGE.md)
