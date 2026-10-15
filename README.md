@@ -143,3 +143,11 @@ Arduino API เดิมถูกแทนด้วย BSP:
 ## สารบัญโปรเจคย่อย
 
 ดู [รายการโปรเจคย่อยและ README](README_SUBPROJECTS.md) สำหรับไฟล์โครงการที่ตรวจพบในกลุ่มนี้ พร้อม [ผลสำรวจและข้อจำกัดของข้อมูล](../README_COVERAGE.md)
+
+<!-- WORK-INDEX:START -->
+## สารบัญอัตโนมัติ
+
+ส่วนนี้อัปเดตจากโฟลเดอร์จริงโดย `update_indexes.py`
+
+- [สารบัญโฟลเดอร์ย่อยที่มี README](README_SUBPROJECTS.md)
+<!-- WORK-INDEX:END -->
