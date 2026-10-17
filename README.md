@@ -1,6 +1,6 @@
 # BH314 STM32F103RCT8 CMake + GCC Port
 
-โปรเจกต์นี้แปลงจาก `BH314.ino` เป็นโปรเจกต์ bare-metal C สำหรับใช้งานบน Linux + VSCode โดยไม่ใช้ Arduino และไม่ใช้ PlatformIO
+โปรเจกต์นี้แปลงจาก `BH314.ino` เป็นโปรเจกต์ bare-metal C สำหรับใช้งานบน Linux + VSCode โดยไม่ใช้ Arduino 
 
 ## Target
 
